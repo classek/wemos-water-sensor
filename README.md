@@ -1,7 +1,7 @@
 
 This is a simple project using an ESP8266 WiFi module and a water sensor to send SMS alerts when the water level drops below a certain threshold
 
-This project is designed to help you keep track of the water level in a container and alert you when it falls below a certain threshold. It uses an ESP8266 WiFi module, an analog water level sensor, and the 46elks SMS API to send alerts to your phone when the water level drops too low.
+This project is designed to help you keep track of the water level in a container and alert you when it falls below a certain threshold. It uses an ESP8266 WiFi module, an analog water level sensor, and the 46elks SMS API (https://46elks.com/) to send alerts to your phone when the water level drops too low.
 
 The code reads the analog signal from the water level sensor and compares it to a pre-defined threshold value. If the water level is below the threshold, the code uses the 46elks API to send an SMS message to your phone alerting you to refill the container.
 
